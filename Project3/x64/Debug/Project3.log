@@ -1,0 +1,20 @@
+﻿Build started 7/1/2015 9:47:27 AM.
+     1>Project "D:\sharefile\NEW@@OLD@\NEW@@@\Project3\Project3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files (x86)\Awesomium Technologies LLC\Awesomium SDK\1.7.5.1\include" /Zi /nologo /W3 /WX- /sdl /Od /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Source.cpp
+         Source.cpp
+     1>Source.cpp(1228): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Source.cpp(1228): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Source.cpp(1229): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Source.cpp(1246): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Source.cpp(1247): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\sharefile\new@@old@\new@@@\project3\source.cpp(443): warning C4715: 'boardcheck' : not all control paths return a value
+     1>d:\sharefile\new@@old@\new@@@\project3\source.cpp(597): warning C4715: 'boardcheck1' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\sharefile\NEW@@OLD@\NEW@@@\x64\Debug\Project3.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Awesomium Technologies LLC\Awesomium SDK\1.7.5.1\build\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-Network-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\sharefile\NEW@@OLD@\NEW@@@\x64\Debug\Project3.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\sharefile\NEW@@OLD@\NEW@@@\x64\Debug\Project3.lib" x64\Debug\Source.obj
+         Project3.vcxproj -> D:\sharefile\NEW@@OLD@\NEW@@@\x64\Debug\Project3.exe
+     1>Done Building Project "D:\sharefile\NEW@@OLD@\NEW@@@\Project3\Project3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.53
